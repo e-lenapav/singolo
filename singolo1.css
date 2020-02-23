@@ -102,3 +102,82 @@ a:hover li {
     top: -69px;
     left: 35px;
 }
+
+.our_services {
+    color: #666d89;
+    height: 495px;
+    background-color: #f2f2f2;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 59px 40px 19px;
+    
+}
+
+.service__content {
+    font-size: 18px;
+    padding-left: 39px;
+    line-height: 30px;
+}
+
+.interval_1 {
+    letter-spacing: -0.14px;
+}
+
+.interval_2 {
+    letter-spacing: -0.3px;
+}
+
+.interval_3 {
+    letter-spacing: -0.5px;
+}
+
+.layout-3-colomn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 12px;
+    padding: 37px 32px;
+}
+
+h3 {
+    font-size: 18px;
+    padding: 7px 9px;
+}
+
+.service-block__content {
+    display: inline-block;
+    position: absolute;
+    width: 241px;
+  
+}
+
+.about__ico {
+    display: inline-block;
+    float: left;
+    padding: 10px;
+}
+
+.block__service {
+    margin: 0;
+    
+}
+
+.service-block__content p {
+    padding: 1px 10px;
+    line-height: 21px;
+    text-align: justify;
+    width: 219px;
+}
+
+.line_1 {
+    margin-bottom: 40px;
+}
+
+.line_2 p {
+    line-height: 22px;
+}
+
+.block__service:nth-child(3n) h3 {
+    padding: 7px 12px;
+}
