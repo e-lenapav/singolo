@@ -107,6 +107,7 @@ a:hover li {
     color: #666d89;
     height: 495px;
     background-color: #f2f2f2;
+    border-bottom: 6px solid #ffffff;
 }
 
 h2 {
@@ -117,21 +118,23 @@ h2 {
 
 .service__content {
     font-size: 18px;
-    padding-left: 39px;
+    padding-left: 40px;
     line-height: 30px;
 }
 
 .interval_1 {
-    letter-spacing: -0.14px;
+    letter-spacing: -0.2px;
 }
 
 .interval_2 {
-    letter-spacing: -0.3px;
+    letter-spacing: -0.4px;
 }
 
 .interval_3 {
-    letter-spacing: -0.5px;
+    letter-spacing: -0.3px;
 }
+
+
 
 .layout-3-colomn {
     display: grid;
@@ -148,12 +151,11 @@ h3 {
 .service-block__content {
     display: inline-block;
     position: absolute;
-    width: 241px;
+    
   
 }
 
 .about__ico {
-    display: inline-block;
     float: left;
     padding: 10px;
 }
@@ -171,7 +173,7 @@ h3 {
 }
 
 .line_1 {
-    margin-bottom: 40px;
+    margin-bottom: 41px;
 }
 
 .line_2 p {
@@ -179,5 +181,10 @@ h3 {
 }
 
 .block__service:nth-child(3n) h3 {
-    padding: 7px 12px;
+    padding: 7px 13px;
 }
+
+.block__service:nth-child(3n) p {
+    padding: 1px 11px;
+}
+
